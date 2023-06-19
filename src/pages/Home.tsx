@@ -19,7 +19,7 @@ const Hero = () => {
         )}
       >
         <div className="mx-auto my-10 flex flex-1 flex-col items-center gap-6 px-2 md:w-[1440px]  md:items-start">
-          <h1 className="max-w-xl text-center text-xl font-extrabold capitalize md:text-left md:text-5xl md:font-normal">
+          <h1 className="max-w-[13rem] text-center text-xl font-extrabold capitalize md:max-w-xl md:text-left md:text-5xl md:font-normal">
             Feel Better about Finding{" "}
             <span className="font-semibold text-[#0B65A7]">Healthcare</span>
           </h1>
