@@ -4,7 +4,7 @@ import PageLinks from "./PageLinks";
 const Header = () => {
   return (
     <div className="absolute inset-x-0 top-0 z-[10]  h-16 py-2">
-      <div className="mx-auto flex h-full max-w-7xl items-center justify-between px-2 sm:px-6 lg:px-8 ">
+      <div className="mx-auto flex h-full max-w-[1440px] items-center justify-between ">
         <a href="#" aria-disabled>
           <Icons.logo className="hidden h-fit w-fit pb-4 md:block" />
         </a>
