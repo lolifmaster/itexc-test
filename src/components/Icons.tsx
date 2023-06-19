@@ -6,17 +6,22 @@ import {
   Newspaper,
   PlusCircle,
   LogOut,
+  Loader2,
+  Menu,
 } from "lucide-react";
 
 export const Icons = {
+  menu: Menu,
   logout: LogOut,
   plus: PlusCircle,
   feed: Newspaper,
   setting: Settings,
   mail: Mail,
   user: User,
+  loader: Loader2,
   service: (props: LucideProps) => (
     <svg
+      {...props}
       width="125"
       height="31"
       viewBox="0 0 125 31"

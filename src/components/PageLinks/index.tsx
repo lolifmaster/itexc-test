@@ -1,14 +1,17 @@
+import { FC } from "react";
 import Link from "./Link";
 
-const index = () => {
+interface indexProps extends React.HTMLAttributes<HTMLUListElement> {}
+
+const PageLinks: FC<indexProps> = ({ ...props }) => {
   return (
-    <ul className="flex items-center gap-8 text-sm font-medium">
-      <Link name="Home" />
-      <Link name="About us" />
-      <Link name="Our services" />
-      <Link name="Contact us" />
+    <ul {...props}>
+      <Link name="Home" href="#home" />
+      <Link name="About us" href="#about" />
+      <Link name="Our services" href="#services" />
+      <Link name="Contact us" href="#contact" />
     </ul>
   );
 };
 
-export default index;
+export default PageLinks;
