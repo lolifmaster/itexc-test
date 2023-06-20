@@ -10,7 +10,7 @@ const App = () => {
   return (
     <>
       <div
-        className={cn({
+        className={cn("h-full", {
           hidden: isLoading,
         })}
       >

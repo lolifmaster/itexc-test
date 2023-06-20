@@ -4,9 +4,9 @@ import { Icons } from "../components/Icons";
 
 const AboutHealth = () => {
   return (
-    <div className="flex flex-col-reverse items-center gap-12 md:flex-row">
+    <div className="flex flex-col-reverse items-center gap-12 md:flex-row md:gap-32">
       <div className="flex flex-1 flex-col items-center gap-12 md:items-start">
-        <h1 className="max-w-xl whitespace-nowrap text-center text-5xl font-extrabold capitalize md:text-left md:font-normal">
+        <h1 className="max-w-lg text-center text-4xl font-extrabold capitalize md:max-w-xl md:text-left md:text-5xl md:font-normal">
           About{" "}
           <span className="relative font-semibold text-darkBlue">
             Healthy 24 . <Star className="absolute right-0 top-0 text-orange" />
@@ -26,7 +26,7 @@ const AboutHealth = () => {
           </p>
         </div>
       </div>
-      <div className=" relative flex h-64 w-2/3 justify-end md:h-96 md:w-auto">
+      <div className=" relative h-64 w-2/4 md:h-96 md:w-auto">
         <img
           src={Img1}
           alt="illustration"

@@ -4,8 +4,8 @@ import ListReasons from "./ListReasons";
 
 const FeaturesHealth = () => {
   return (
-    <div className="flex flex-col-reverse items-center justify-between gap-24 md:flex-row">
-      <div className=" relative flex flex-1 basis-2/5 justify-center">
+    <div className="flex flex-col items-center justify-between gap-24 md:flex-row">
+      <div className="flex-1 basis-2/5">
         <img
           src={Img2}
           alt="illustration"
@@ -13,9 +13,9 @@ const FeaturesHealth = () => {
         />
       </div>
       <div className="flex flex-1 basis-3/5 flex-col items-center gap-6 md:items-start">
-        <h1 className="max-w-xl whitespace-nowrap text-center text-4xl font-extrabold capitalize md:text-left md:font-normal">
+        <h1 className="max-w-lg text-center text-4xl font-extrabold capitalize md:max-w-xl md:text-left md:text-5xl md:font-normal">
           Why choosing{" "}
-          <span className="relative pr-2 font-semibold text-darkBlue">
+          <span className="relative inline-block pr-2 font-semibold text-darkBlue">
             Healthy 24 . <Star className="absolute right-0 top-0 text-orange" />
           </span>
         </h1>
