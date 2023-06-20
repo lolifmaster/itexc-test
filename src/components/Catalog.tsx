@@ -12,7 +12,7 @@ const Catalog = () => {
           depending on your insurance. See costs for more information.
         </p>
       </div>
-      <div className="grid w-3/5 grow grid-cols-3 gap-16">
+      <div className="grid min-w-[%75] gap-16 md:grid-cols-3 md:px-6 lg:px-0">
         <Card title="Cold & Flu" />
         <Card title="Mental health" />
         <Card title="Mental health" />
