@@ -8,6 +8,7 @@ export default {
     extend: {
       fontFamily: {
         "sans": ["Poppins", "sans-serif"],
+        "sora": ["Sora", "sans-serif"],
       },
       colors : {
         darkBlue : '#0B65A7',

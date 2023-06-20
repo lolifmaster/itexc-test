@@ -1,7 +1,8 @@
-import { LucideProps, Mail, Loader2, Check, Menu } from "lucide-react";
+import { LucideProps, Mail, Loader2, Check, Menu, Star } from "lucide-react";
 
 export const Icons = {
   menu: Menu,
+  star: Star,
   mail: Mail,
   loader: Loader2,
   check: Check,
