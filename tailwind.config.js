@@ -14,6 +14,7 @@ export default {
         darkBlue : '#0B65A7',
         lightBlue : 'rgb(59 130 246)',
         orange : '#F26A0E',
+        gray : '#F4F7FA',
       },
       screens : {
           xl: '1440px',

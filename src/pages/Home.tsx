@@ -1,4 +1,5 @@
 import BackgroundImage from "../assets/bg-hero.jpg";
+import Button from "../components/Button";
 import Features from "../components/Features";
 import { cn } from "../lib/utils";
 import { FC } from "react";
@@ -25,12 +26,7 @@ const Hero: FC<HomeProps> = ({ setLoading }) => {
             Healththy 24 Online ranks highest in telehealth satisfaction among
             direct-to-consumer brands.
           </p>
-          <button
-            className="border-brightRed focus:ring-brightRed w-fit
-               bg-orange px-6 py-3 text-slate-100 transition hover:bg-[#a45217] hover:shadow-md"
-          >
-            Get Started
-          </button>
+          <Button> Get started</Button>
         </div>
         <div className="absolute right-0 top-0 -z-10 h-full md:w-3/4">
           <img

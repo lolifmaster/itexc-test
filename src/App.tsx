@@ -1,4 +1,4 @@
-import Header from "./components/Header";
+import Header from "./components/NavBar.tsx";
 import About from "./pages/About.tsx";
 import Hero from "./pages/Home.tsx";
 import { useState } from "react";
