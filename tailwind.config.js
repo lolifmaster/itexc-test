@@ -8,6 +8,14 @@ export default {
     extend: {
       fontFamily: {
         "sans": ["Poppins", "sans-serif"],
+      },
+      colors : {
+        darkBlue : '#0B65A7',
+        lightBlue : 'rgb(59 130 246)',
+        orange : '#F26A0E',
+      },
+      screens : {
+          xl: '1440px',
       }
     },
   },

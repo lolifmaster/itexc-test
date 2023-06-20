@@ -1,25 +1,23 @@
 import BackgroundImage from "../assets/bg-hero.jpg";
 import Features from "../components/Features";
-import { useState } from "react";
 import { cn } from "../lib/utils";
-import Loading from "../components/Loading";
-import { Button } from "../components/ui/Button";
-const Hero = () => {
-  const [isLoading, setIsLoading] = useState<boolean>(true);
+import { FC } from "react";
 
+interface HomeProps {
+  setLoading: React.Dispatch<React.SetStateAction<boolean>>;
+}
+
+const Hero: FC<HomeProps> = ({ setLoading }) => {
   return (
     <>
       <section
         id="home"
         className={cn(
-          "relative flex h-[600px] w-screen flex-col justify-between from-slate-50 from-30% to-transparent to-60% pt-16 md:bg-gradient-to-r",
-          {
-            hidden: isLoading,
-          }
+          "relative min-h-[600px] w-screen from-slate-50 from-30% to-transparent to-60% pt-16 md:mb-48 md:bg-gradient-to-r"
         )}
       >
-        <div className="mx-auto my-10 flex flex-1 flex-col items-center gap-6 px-2 md:w-[1440px]  md:items-start">
-          <h1 className="max-w-[13rem] text-center text-xl font-extrabold capitalize md:max-w-xl md:text-left md:text-5xl md:font-normal">
+        <div className="mx-auto my-10 flex flex-1 flex-col items-center gap-6 px-2 md:max-w-screen-xl md:items-start md:px-8">
+          <h1 className="max-w-lg text-center text-4xl font-extrabold capitalize md:max-w-xl md:text-left md:text-5xl md:font-normal">
             Feel Better about Finding{" "}
             <span className="font-semibold text-[#0B65A7]">Healthcare</span>
           </h1>
@@ -29,7 +27,7 @@ const Hero = () => {
           </p>
           <button
             className="border-brightRed focus:ring-brightRed w-fit
-               bg-[#F27219] px-6 py-3 text-slate-100 transition hover:bg-[#a45217] hover:shadow-md"
+               bg-orange px-6 py-3 text-slate-100 transition hover:bg-[#a45217] hover:shadow-md"
           >
             Get Started
           </button>
@@ -39,12 +37,11 @@ const Hero = () => {
             className="hidden h-full w-full object-fill md:block md:object-cover"
             src={BackgroundImage}
             alt="illustration"
-            onLoad={() => setIsLoading(false)}
+            onLoad={() => setLoading(false)}
           />
         </div>
         <Features />
       </section>
-      <Loading isLoading={isLoading} />
     </>
   );
 };

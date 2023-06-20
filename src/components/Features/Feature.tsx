@@ -12,9 +12,9 @@ const Feature: FC<FeatureProps> = ({ Icon, content, primary = false }) => {
   return (
     <div
       className={cn(
-        "flex h-full w-full flex-1 flex-col items-center justify-center p-5",
+        "flex h-full w-full flex-1 flex-col items-center justify-center p-10 py-5",
         {
-          "box-content border-l-4 border-[#F26A0E] bg-blue-500 p-0 md:border-b-4 md:border-l-0":
+          "box-content border-l-4 border-orange bg-lightBlue p-0 md:border-b-4 md:border-l-0":
             primary,
         }
       )}

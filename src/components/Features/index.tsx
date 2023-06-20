@@ -3,7 +3,7 @@ import { Icons } from "../Icons";
 
 const Features = () => {
   return (
-    <div className="mx-auto flex  w-2/3 flex-col items-center bg-[#005EA3] md:translate-y-3/4 md:flex-row">
+    <div className="mx-auto grid w-2/3 items-center bg-[#005EA3] md:absolute md:bottom-0 md:translate-x-1/4 md:translate-y-2/3 md:grid-cols-4">
       <Feature Icon={Icons.mail} content={"Online \n Consultation ."} />
       <Feature
         Icon={Icons.mail}

@@ -10,12 +10,12 @@ const Loading: FC<LoadingProps> = ({ isLoading, className, ...props }) => {
   return (
     <div
       {...props}
-      className={cn("h-[600px]", {
+      className={cn("grid h-screen place-content-center", {
         hidden: !isLoading,
         className,
       })}
     >
-      <Icons.logo className="mx-auto h-36 w-36 animate-pulse text-[#F26A0E]" />
+      <Icons.logo className="h-48 w-48 animate-pulse" />
     </div>
   );
 };
