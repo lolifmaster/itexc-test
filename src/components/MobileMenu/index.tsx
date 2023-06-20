@@ -7,7 +7,7 @@ import {
   DropdownMenuGroup,
 } from "../ui/DropDownMenu";
 import { Icons } from "../Icons";
-import LinkMobile from "../PageLinks/LinkMobile";
+import LinkMobile from "./LinkMobile";
 
 const MobileMenu = () => {
   return (
@@ -22,10 +22,10 @@ const MobileMenu = () => {
           </DropdownMenuLabel>
           <DropdownMenuSeparator />
           <DropdownMenuGroup>
-            <LinkMobile name="Home" href="#home" />
-            <LinkMobile name="About" href="#about" />
-            <LinkMobile name="Services" href="#services" />
-            <LinkMobile name="Contact" href="#contact" />
+            <LinkMobile name="Home" />
+            <LinkMobile name="About" />
+            <LinkMobile name="Services" />
+            <LinkMobile name="Contact" />
           </DropdownMenuGroup>
         </DropdownMenuContent>
       </DropdownMenu>
