@@ -10,7 +10,6 @@ const FeaturesHealth = () => {
           src={Img2}
           alt="illustration"
           className="h-full w-full object-cover md:object-contain"
-          loading="lazy"
         />
       </div>
       <div className="flex flex-1 basis-3/5 flex-col items-center gap-6 md:items-start">

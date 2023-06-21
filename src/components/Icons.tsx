@@ -6,6 +6,197 @@ export const Icons = {
   mail: Mail,
   loader: Loader2,
   check: Check,
+  plus: (props: LucideProps) => (
+    <svg
+      {...props}
+      width="17"
+      height="17"
+      viewBox="0 0 17 17"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <g clip-path="url(#clip0_166_39)">
+        <g filter="url(#filter0_di_166_39)">
+          <circle cx="8.5" cy="8.5" r="8.5" fill="#F27219" />
+        </g>
+        <rect
+          x="6.65216"
+          y="3.6958"
+          width="3.69565"
+          height="9.6087"
+          rx="0.782609"
+          fill="white"
+        />
+        <rect
+          x="13.3043"
+          y="6.65234"
+          width="3.69565"
+          height="9.6087"
+          rx="0.782609"
+          transform="rotate(90 13.3043 6.65234)"
+          fill="white"
+        />
+      </g>
+      <defs>
+        <filter
+          id="filter0_di_166_39"
+          x="-19"
+          y="-15"
+          width="55"
+          height="55"
+          filterUnits="userSpaceOnUse"
+          color-interpolation-filters="sRGB"
+        >
+          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feColorMatrix
+            in="SourceAlpha"
+            type="matrix"
+            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+            result="hardAlpha"
+          />
+          <feOffset dy="4" />
+          <feGaussianBlur stdDeviation="9.5" />
+          <feComposite in2="hardAlpha" operator="out" />
+          <feColorMatrix
+            type="matrix"
+            values="0 0 0 0 0.0862745 0 0 0 0 0.470588 0 0 0 0 0.94902 0 0 0 0.2 0"
+          />
+          <feBlend
+            mode="normal"
+            in2="BackgroundImageFix"
+            result="effect1_dropShadow_166_39"
+          />
+          <feBlend
+            mode="normal"
+            in="SourceGraphic"
+            in2="effect1_dropShadow_166_39"
+            result="shape"
+          />
+          <feColorMatrix
+            in="SourceAlpha"
+            type="matrix"
+            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+            result="hardAlpha"
+          />
+          <feOffset dy="4" />
+          <feGaussianBlur stdDeviation="2" />
+          <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1" />
+          <feColorMatrix
+            type="matrix"
+            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.12 0"
+          />
+          <feBlend
+            mode="normal"
+            in2="shape"
+            result="effect2_innerShadow_166_39"
+          />
+        </filter>
+        <clipPath id="clip0_166_39">
+          <rect width="17" height="17" fill="white" />
+        </clipPath>
+      </defs>
+    </svg>
+  ),
+  hand: (props: LucideProps) => (
+    <svg
+      {...props}
+      width="32"
+      height="32"
+      viewBox="0 0 32 32"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <g clip-path="url(#clip0_166_38)">
+        <g filter="url(#filter0_di_166_38)">
+          <circle cx="16" cy="16" r="16" fill="#005EA3" />
+        </g>
+        <g clip-path="url(#clip1_166_38)">
+          <path
+            d="M25.1616 18.5396C25.1441 18.5163 25.1253 18.4945 25.1051 18.4736C24.5237 17.7466 23.4727 17.6006 22.7398 18.1507C21.6836 18.9292 19.8765 20.2392 19.2734 20.6764L16.6387 20.4698L18.2507 20.117C19.1142 19.9913 19.7332 19.2294 19.6958 18.3301C19.6956 18.3206 19.6949 18.3111 19.694 18.3018C19.6192 17.4031 18.889 16.7256 17.9958 16.7256H13.1205C12.7244 16.7256 12.3548 16.827 12.0219 17.0267C12.0086 17.0349 11.9954 17.0433 11.9825 17.0523L6.78973 20.6805C6.4818 20.8957 6.40652 21.3199 6.62168 21.6276C6.83664 21.9358 7.26113 22.0113 7.56883 21.7956L12.7398 18.1827C12.855 18.1176 12.9797 18.0856 13.1207 18.0856H17.996C18.177 18.0856 18.3153 18.2144 18.3371 18.4004C18.3387 18.5641 18.2505 18.7459 18.0477 18.7713C18.0273 18.7738 18.0069 18.7772 17.9867 18.7818L15.0842 19.4167C14.8577 19.4663 14.672 19.6278 14.5915 19.8452C14.511 20.0629 14.5468 20.3064 14.6867 20.4915L15.4577 21.5119C15.5749 21.6672 15.7532 21.7649 15.9473 21.7801L19.4166 22.0522C19.5772 22.0638 19.738 22.0196 19.8686 21.925C19.8923 21.9078 22.2668 20.1892 23.5513 19.2425C23.698 19.1325 23.9314 19.1742 24.05 19.3329C24.0631 19.3504 24.0772 19.3674 24.0919 19.3833C24.1833 19.5327 24.1484 19.7243 24.0035 19.8329L19.402 23.3013C19.2666 23.4027 19.1255 23.4412 18.9643 23.4199L12.2523 22.5809C12.0691 22.558 11.8849 22.6104 11.7412 22.726L9.17883 24.7897C8.88609 25.0256 8.84004 25.4539 9.07566 25.7464C9.20992 25.9133 9.40695 25.9999 9.60582 25.9999C9.7557 25.9999 9.90648 25.9507 10.0319 25.8498L12.3696 23.967L18.7898 24.7695C19.3018 24.8378 19.7952 24.7065 20.219 24.389L24.8213 20.9208C25.5716 20.358 25.7242 19.29 25.1616 18.5396Z"
+            fill="white"
+          />
+          <path
+            d="M19.1065 8.3584C18.7307 8.3584 18.4262 8.66293 18.4262 9.03867V13.1203C18.4262 13.4961 18.7307 13.8006 19.1065 13.8006C19.4822 13.8006 19.7868 13.4961 19.7868 13.1203V9.03867C19.7868 8.66293 19.4822 8.3584 19.1065 8.3584Z"
+            fill="white"
+          />
+          <path
+            d="M21.1473 10.3989H17.0657C16.6899 10.3989 16.3854 10.7035 16.3854 11.0792C16.3854 11.4549 16.6899 11.7595 17.0657 11.7595H21.1473C21.5231 11.7595 21.8276 11.4549 21.8276 11.0792C21.8276 10.7035 21.5231 10.3989 21.1473 10.3989Z"
+            fill="white"
+          />
+          <path
+            d="M19.1065 6C16.3056 6 14.0273 8.27848 14.0273 11.0794C14.0273 13.8803 16.3056 16.1587 19.1065 16.1587C21.9071 16.1587 24.1859 13.8803 24.1859 11.0794C24.1859 8.27844 21.9074 6 19.1065 6ZM19.1065 14.7982C17.0559 14.7982 15.3879 13.13 15.3879 11.0794C15.3879 9.02879 17.0559 7.36055 19.1065 7.36055C21.157 7.36055 22.8253 9.02879 22.8253 11.0794C22.8253 13.13 21.1571 14.7982 19.1065 14.7982Z"
+            fill="white"
+          />
+        </g>
+      </g>
+      <defs>
+        <filter
+          id="filter0_di_166_38"
+          x="-19"
+          y="-15"
+          width="70"
+          height="70"
+          filterUnits="userSpaceOnUse"
+          color-interpolation-filters="sRGB"
+        >
+          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feColorMatrix
+            in="SourceAlpha"
+            type="matrix"
+            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+            result="hardAlpha"
+          />
+          <feOffset dy="4" />
+          <feGaussianBlur stdDeviation="9.5" />
+          <feComposite in2="hardAlpha" operator="out" />
+          <feColorMatrix
+            type="matrix"
+            values="0 0 0 0 0.0862745 0 0 0 0 0.470588 0 0 0 0 0.94902 0 0 0 0.2 0"
+          />
+          <feBlend
+            mode="normal"
+            in2="BackgroundImageFix"
+            result="effect1_dropShadow_166_38"
+          />
+          <feBlend
+            mode="normal"
+            in="SourceGraphic"
+            in2="effect1_dropShadow_166_38"
+            result="shape"
+          />
+          <feColorMatrix
+            in="SourceAlpha"
+            type="matrix"
+            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+            result="hardAlpha"
+          />
+          <feOffset dy="4" />
+          <feGaussianBlur stdDeviation="2" />
+          <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1" />
+          <feColorMatrix
+            type="matrix"
+            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.12 0"
+          />
+          <feBlend
+            mode="normal"
+            in2="shape"
+            result="effect2_innerShadow_166_38"
+          />
+        </filter>
+        <clipPath id="clip0_166_38">
+          <rect width="32" height="32" fill="white" />
+        </clipPath>
+        <clipPath id="clip1_166_38">
+          <rect
+            width="20"
+            height="20"
+            fill="white"
+            transform="translate(6 6)"
+          />
+        </clipPath>
+      </defs>
+    </svg>
+  ),
   consult: (props: LucideProps) => (
     <svg
       {...props}
