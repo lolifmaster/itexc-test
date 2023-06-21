@@ -29,3 +29,12 @@
 }
 .swiper-button-next, .swiper-button-prev { color: rgb(242 106 14) }
 .swiper-pagination-bullet-active { background: rgb(242 106 14); }
+
+@media (min-width: 1024px) {
+  .swiper-button-next {
+      margin-right: 2rem;
+  }
+  .swiper-button-prev {
+      margin-left: 2rem;
+  };
+}
