@@ -20,16 +20,20 @@ const InstallTag = () => {
         </div>
         <div className="flex flex-1 basis-2/5 flex-col items-center gap-8 text-white md:items-end">
           <div className="flex gap-2">
-            <img
-              src={AppLogo}
-              className="h-full object-cover"
-              alt="app store"
-            />
-            <img
-              src={GoogleStore}
-              className="h-full object-cover"
-              alt="google play"
-            />
+            <a href="#">
+              <img
+                src={AppLogo}
+                className="h-full object-cover"
+                alt="app store"
+              />
+            </a>
+            <a href="#">
+              <img
+                src={GoogleStore}
+                className="h-full object-cover"
+                alt="google play"
+              />
+            </a>
           </div>
           <p className="flex items-center gap-2 text-2xl text-slate-50">
             4.9{" "}
