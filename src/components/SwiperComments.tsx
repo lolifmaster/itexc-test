@@ -22,7 +22,7 @@ const SwiperComments = () => {
       <Swiper
         spaceBetween={10}
         navigation={{ hideOnClick: true, enabled: true }}
-        className="z-10 mx-auto w-3/4 bg-slate-50 py-6 md:py-14"
+        className="z-10 mx-auto w-5/6 bg-slate-50 py-6 md:w-3/4 md:py-14"
       >
         <SwiperSlide>
           <Comment />
