@@ -16,13 +16,13 @@ const HospitalSearch = () => {
         <h2 className="max-w-lg text-center text-3xl font-extrabold capitalize text-darkBlue md:max-w-xl md:text-left md:text-4xl md:font-normal">
           Search the Nearest hospital from you
         </h2>
-        <div className="flex flex-col gap-8">
+        <div className="flex flex-col items-center gap-8 md:items-start">
           <p className="max-w-lg text-center md:text-left">
             Rumah sakit adalah bagian integral dari suatu organisasi sosial dan
             kesehatan dengan fungsi menyediakan pelayanan paripurna
             (komprehensif).
           </p>
-          <Button className="px-12">Search</Button>
+          <Button className="w-fit px-12 ">Search</Button>
         </div>
       </div>
     </div>

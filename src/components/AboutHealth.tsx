@@ -4,7 +4,7 @@ import { Icons } from "../components/Icons";
 
 const AboutHealth = () => {
   return (
-    <div className="flex flex-col-reverse items-center gap-12 md:flex-row md:gap-32">
+    <div className="flex flex-col-reverse items-center gap-32 md:flex-row">
       <div className="flex flex-1 flex-col items-center gap-12 md:items-start">
         <h1 className="max-w-lg text-center text-4xl font-extrabold capitalize md:max-w-xl md:text-left md:text-5xl md:font-normal">
           About{" "}

@@ -3,7 +3,7 @@ import { Icons } from "../Icons";
 
 const Features = () => {
   return (
-    <div className="mx-auto grid w-2/3 items-center bg-[#005EA3] md:absolute md:bottom-0 md:translate-x-1/4 md:translate-y-2/3 md:grid-cols-4">
+    <div className="mx-auto grid w-fit items-center bg-[#005EA3] md:absolute md:bottom-0 md:right-1/2 md:w-4/5 md:translate-x-1/2 md:translate-y-2/3 md:grid-cols-4 lg:w-2/3">
       <Feature Icon={Icons.consult} content={"Online \n Consultation"} />
       <Feature
         Icon={Icons.medical}
