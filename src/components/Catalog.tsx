@@ -7,9 +7,10 @@ const Catalog = () => {
         <h2 className="text-3xl font-semibold text-darkBlue">
           We're here for you
         </h2>
-        <p className="max-w-[50%]">
+        <p className="max-w-[50%] text-gray-500">
           Visits start at $79 for a 15 min consultation, or could be free
-          depending on your insurance. See costs for more information.
+          depending on your insurance. See{" "}
+          <span className="underline">costs</span> for more information.
         </p>
       </div>
       <div className="grid min-w-[%75] gap-16 md:grid-cols-3 md:px-6 lg:px-0">

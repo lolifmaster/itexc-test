@@ -10,7 +10,7 @@ const Loading: FC<LoadingProps> = ({ isLoading, className, ...props }) => {
   return (
     <div
       {...props}
-      className={cn("grid h-screen place-content-center", {
+      className={cn("grid h-[100dvh] place-content-center", {
         hidden: !isLoading,
         className,
       })}

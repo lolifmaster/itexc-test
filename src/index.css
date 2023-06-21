@@ -19,6 +19,14 @@
 
 @layer base {
   html {
-      scroll-behavior: smooth !important;
+    @apply scroll-smooth text-black;
   }
+
+  img {
+    @apply select-none pointer-events-none;
+  }
+  
 }
+.swiper-button-next { color: rgb(242 106 14); margin-right: 4rem; }
+.swiper-button-prev { color: rgb(242 106 14); margin-left: 4rem; }
+.swiper-pagination-bullet-active { background: rgb(242 106 14); }

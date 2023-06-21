@@ -29,9 +29,11 @@ const InstallTag = () => {
           </div>
           <p className="flex items-center gap-2 text-2xl text-slate-50">
             4.9{" "}
-            {Array(5).fill(
-              <Icons.star className="inline-block fill-slate-50" />
-            )}
+            {Array(5)
+              .fill(0)
+              .map((_, i) => (
+                <Icons.star key={i} className="inline-block fill-slate-50" />
+              ))}
           </p>
           <p className=" font-thin text-slate-50">190.7k Rating</p>
         </div>
