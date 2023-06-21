@@ -4,9 +4,9 @@ import { Icons } from "./Icons";
 
 const InstallTag = () => {
   return (
-    <div className="w-screen bg-darkBlue">
-      <div className="mx-auto flex w-4/5 flex-col items-center md:flex-row">
-        <div className="flex flex-1 basis-3/5 flex-col py-16 text-center text-slate-50 md:text-start">
+    <div className="w-screen bg-darkBlue py-8">
+      <div className="mx-auto flex w-full flex-col items-center gap-8 px-2 md:w-4/5 md:flex-row md:px-0">
+        <div className="flex flex-1 basis-3/5 flex-col text-center text-slate-50 md:text-start">
           <h2 className=" font-sora text-4xl font-semibold leading-normal ">
             Get the app
           </h2>
@@ -19,13 +19,17 @@ const InstallTag = () => {
           </p>
         </div>
         <div className="flex flex-1 basis-2/5 flex-col items-center gap-8 text-white md:items-end">
-          <div className="grid h-12 grid-cols-2 gap-2">
+          <div className="flex gap-2">
             <img
               src={AppLogo}
-              className="h-full place-self-end"
+              className="h-full object-cover"
               alt="app store"
             />
-            <img src={GoogleStore} className="h-full" alt="google play" />
+            <img
+              src={GoogleStore}
+              className="h-full object-cover"
+              alt="google play"
+            />
           </div>
           <p className="flex items-center gap-2 text-2xl text-slate-50">
             4.9{" "}

@@ -21,7 +21,7 @@ const Comment = () => {
             <Icons.star key={i} className="inline-block fill-slate-50" />
           ))}
       </p>
-      <p className="w-3/4 text-lg">
+      <p className="w-4/5 text-lg md:w-3/4">
         Our caring and supportive team has experience working with patients
         face-to-face and dealing with mental health issues. Spend less time
         searching for help and more time connecting with someone you can trust.

@@ -13,12 +13,12 @@ SwiperCore.use([Navigation]);
 const SwiperComments = () => {
   return (
     <div
-      className="relative grid h-screen w-full items-center bg-cover bg-center bg-no-repeat"
+      className="relative grid min-h-screen w-full items-center bg-cover bg-center"
       style={{
         backgroundImage: `url(${Bgimage})`,
       }}
     >
-      <div className="back absolute inset-0"></div>
+      <div className="absolute inset-0 backdrop-blur-sm"></div>
       <Swiper
         spaceBetween={10}
         navigation={{ hideOnClick: true, enabled: true }}
