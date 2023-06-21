@@ -18,7 +18,12 @@ const ServicesHero = () => {
         </button>
       </div>
       <div className="flex-1 basis-2/5">
-        <img src={ServicesImg} alt="our services" />
+        <img
+          src={ServicesImg}
+          className="h-full w-full"
+          alt="our services"
+          loading="lazy"
+        />
       </div>
     </div>
   );

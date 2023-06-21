@@ -27,7 +27,12 @@ const Comment = () => {
         searching for help and more time connecting with someone you can trust.
       </p>
 
-      <img src={Avatar} alt="profile" className="h-12 w-12 rounded-full" />
+      <img
+        src={Avatar}
+        alt="profile"
+        className="h-12 w-12 rounded-full"
+        loading="lazy"
+      />
       <div>
         <p className="text-lg font-semibold">Christopher Nolan</p>
         <p className="text-sm">CEO, Interstellar</p>

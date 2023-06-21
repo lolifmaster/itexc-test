@@ -9,6 +9,7 @@ const HospitalSearch = () => {
           src={HospitalImage}
           alt="illustration"
           className="h-full w-full object-cover md:object-contain"
+          loading="lazy"
         />
         <div className="absolute inset-0 bg-lightBlue bg-opacity-20 shadow shadow-lightBlue blur-md"></div>
       </div>
