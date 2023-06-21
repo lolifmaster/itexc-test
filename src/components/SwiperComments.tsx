@@ -18,12 +18,15 @@ const SwiperComments = () => {
         backgroundImage: `url(${Bgimage})`,
       }}
     >
-      <div className="absolute inset-0 backdrop-blur-sm"></div>
+      <div className="back absolute inset-0"></div>
       <Swiper
         spaceBetween={10}
         navigation={{ hideOnClick: true, enabled: true }}
-        className="z-10 w-3/4 bg-slate-50 py-14"
+        className="z-10 mx-auto w-3/4 bg-slate-50 py-6 md:py-14"
       >
+        <SwiperSlide>
+          <Comment />
+        </SwiperSlide>
         <SwiperSlide>
           <Comment />
         </SwiperSlide>
