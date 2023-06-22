@@ -52,7 +52,7 @@ const AccordionContent = React.forwardRef<
     )}
     {...props}
   >
-    <div className="px-5 py-12 font-medium">{children}</div>
+    <p className="px-8 py-12 font-semibold">{children}</p>
   </AccordionPrimitive.Content>
 ));
 AccordionContent.displayName = AccordionPrimitive.Content.displayName;

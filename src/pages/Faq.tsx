@@ -9,7 +9,7 @@ const Faq = () => {
         <Icons.chat className="inline-block" /> FAQ
       </h2>
       <div className="flex w-full flex-col gap-16 md:flex-row md:gap-32 ">
-        <div className="flex flex-col gap-4 md:w-3/5">
+        <div className="flex flex-col gap-14 md:w-3/5">
           <p className="max-w-3xl text-center md:text-start">
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             Suspendisse varius enim in eros elementum tristique. Duis cursus, mi

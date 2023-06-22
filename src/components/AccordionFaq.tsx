@@ -6,7 +6,7 @@ export function AccordionFaq() {
     <Accordion
       type="single"
       collapsible
-      className="flex h-full flex-1 flex-col justify-end gap-2"
+      className="flex h-full flex-1 flex-col gap-4"
     >
       {Array(3)
         .fill(0)
