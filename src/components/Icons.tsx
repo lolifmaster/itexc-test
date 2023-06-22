@@ -513,6 +513,7 @@ export const Icons = {
   ),
   logo2: (props: LucideProps) => (
     <svg
+      {...props}
       width="146"
       height="42"
       viewBox="0 0 146 42"
