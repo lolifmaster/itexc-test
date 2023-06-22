@@ -32,7 +32,7 @@ const AboutHealth = () => {
           alt="illustration"
           className="h-full w-full object-cover"
         />
-        <div className="absolute bottom-0 left-0 -translate-x-1/2 translate-y-1/3 bg-lightBlue pb-6 pl-4 pt-2">
+        <div className="absolute bottom-0 left-0 -translate-x-1/2 translate-y-1/3 bg-lightBlue px-4 py-8">
           <Icons.logo2 />
         </div>
       </div>

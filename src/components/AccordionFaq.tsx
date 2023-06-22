@@ -11,7 +11,7 @@ export function AccordionFaq() {
       {Array(3)
         .fill(0)
         .map((_, i) => (
-          <FaQItem key={i} index={i} />
+          <FaQItem key={i} index={i} open={true} />
         ))}
     </Accordion>
   );

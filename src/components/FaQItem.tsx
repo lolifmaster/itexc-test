@@ -6,9 +6,10 @@ import {
 } from "../components/ui/Accordion";
 interface FaQItemProps {
   index: number;
+  open: boolean;
 }
 
-const FaQItem: FC<FaQItemProps> = ({ index }) => {
+const FaQItem: FC<FaQItemProps> = ({ index, open }) => {
   return (
     <AccordionItem value={`value ${index}`}>
       <AccordionTrigger className="p-7 transition-colors data-[state=open]:bg-black data-[state=open]:text-slate-50">

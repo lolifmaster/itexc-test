@@ -4,13 +4,9 @@ import { Icons } from "../components/Icons";
 
 const CardFaq = () => {
   return (
-    <div className="flex h-full flex-col md:w-2/6">
+    <div className="flex h-full flex-col  md:max-w-xs lg:max-w-md">
       <div className="h-3/5">
-        <img
-          src={DoctorImg}
-          alt="Doctor"
-          className="h-full w-full object-cover"
-        />
+        <img src={DoctorImg} alt="Doctor" className="h-full w-full" />
       </div>
       <div className="relative flex flex-col gap-2  bg-lightBlue p-8 text-slate-50">
         <h2 className="text-2xl font-bold"> Still have a question?</h2>
@@ -21,7 +17,7 @@ const CardFaq = () => {
           <Button className="bg-slate-50 text-black hover:bg-slate-200 ">
             Contact Us
           </Button>
-          <Icons.doctor className=" block stroke-slate-50 md:hidden lg:block" />
+          <Icons.doctor className="stroke-slate-50" />
         </div>
       </div>
     </div>
