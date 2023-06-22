@@ -6,12 +6,11 @@ import {
 } from "../components/ui/Accordion";
 interface FaQItemProps {
   index: number;
-  open: boolean;
 }
 
-const FaQItem: FC<FaQItemProps> = ({ index, open }) => {
+const FaQItem: FC<FaQItemProps> = ({ index }) => {
   return (
-    <AccordionItem value={`value ${index}`}>
+    <AccordionItem value={`value ${index}`} defaultChecked={index === 0}>
       <AccordionTrigger className="p-7 transition-colors data-[state=open]:bg-black data-[state=open]:text-slate-50">
         <p className="font-roboto font-semibold">
           <span className="text-orange">0{index + 1}: </span> Question text goes

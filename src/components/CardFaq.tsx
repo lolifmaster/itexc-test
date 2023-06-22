@@ -6,7 +6,7 @@ const CardFaq = () => {
   return (
     <div className="flex h-full flex-col lg:max-w-md">
       <div className="h-3/5">
-        <img src={DoctorImg} alt="Doctor" className="h-full w-full" />
+        <img src={DoctorImg} alt="Doctor" />
       </div>
       <div className="relative flex flex-col gap-2  bg-lightBlue p-8 text-slate-50">
         <h2 className="text-2xl font-bold"> Still have a question?</h2>
