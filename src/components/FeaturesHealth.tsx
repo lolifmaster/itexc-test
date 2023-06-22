@@ -1,5 +1,5 @@
-import { Star } from "lucide-react";
 import Img2 from "../assets/img-hug.png";
+import { Icons } from "./Icons";
 import ListReasons from "./ListReasons";
 
 const FeaturesHealth = () => {
@@ -13,10 +13,11 @@ const FeaturesHealth = () => {
         />
       </div>
       <div className="flex flex-1 basis-3/5 flex-col items-center gap-6 md:items-start">
-        <h1 className="max-w-lg text-center text-4xl font-extrabold capitalize md:max-w-xl md:text-left md:text-5xl md:font-normal">
+        <h1 className="max-w-lg text-center text-4xl font-extrabold capitalize md:max-w-xl md:text-left md:font-normal">
           Why choosing{" "}
-          <span className="relative inline-block pr-2 font-semibold text-darkBlue">
-            Healthy 24 . <Star className="absolute right-0 top-0 text-orange" />
+          <span className="relative inline-block pr-4 font-semibold text-darkBlue">
+            Healthy 24.{" "}
+            <Icons.plus className="absolute right-0 top-0 h-5 w-5" />
           </span>
         </h1>
         <div className="flex flex-col gap-8">

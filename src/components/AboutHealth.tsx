@@ -1,4 +1,3 @@
-import { Star } from "lucide-react";
 import Img1 from "../assets/about-img1.jpg";
 import { Icons } from "../components/Icons";
 
@@ -8,8 +7,9 @@ const AboutHealth = () => {
       <div className="flex flex-1 flex-col items-center gap-12 md:items-start">
         <h1 className="max-w-lg text-center text-4xl font-extrabold capitalize md:max-w-xl md:text-left md:text-5xl md:font-normal">
           About{" "}
-          <span className="relative font-semibold text-darkBlue">
-            Healthy 24 . <Star className="absolute right-0 top-0 text-orange" />
+          <span className="relative inline-block pr-4 font-semibold text-darkBlue md:pr-2">
+            Healthy 24.{" "}
+            <Icons.plus className="absolute right-0 top-0 h-5 w-5" />
           </span>
         </h1>
         <div className="flex flex-col gap-8">

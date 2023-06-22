@@ -4,7 +4,7 @@ import Button from "./Button";
 
 const ContactForm = () => {
   return (
-    <form className="flex flex-col gap-6">
+    <form onSubmit={(e) => e.preventDefault()} className="flex flex-col gap-6">
       <div className="flex flex-col gap-2">
         <label htmlFor="name" className="font-roboto text-[16px]">
           Full Name
@@ -42,7 +42,7 @@ const ContactForm = () => {
         />
       </div>
       {/* submit button */}
-      <Button className="px-12">Submit</Button>
+      <Button className="mx-auto px-12 md:mx-0">Submit</Button>
     </form>
   );
 };
