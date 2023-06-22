@@ -18,14 +18,14 @@ const ContactCard: FC<ContactCardProps> = ({
   return (
     <>
       <div
-        className={cn("flex gap-4 whitespace-nowrap border-b-2 pb-6 pr-12", {
+        className={cn("flex gap-4 border-b-2 pb-6 pr-12", {
           className,
         })}
       >
         <Icon className={className} />
         <div>
           <h3 className="font-semibold">{title}</h3>
-          <p>{content}</p>
+          <p className="max-w-xs">{content}</p>
         </div>
       </div>
     </>

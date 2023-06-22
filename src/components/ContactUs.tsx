@@ -28,14 +28,14 @@ const ContactUs = () => {
             content="Healthy 24.@Email.com"
           />
           <ContactCard
-            Icon={Icons.phone}
-            title="Email"
-            content="Healthy 24.@Email.com"
+            Icon={Icons.location}
+            title="Address"
+            content="Lorem ipsum dolor sit amet, consectetur 33"
           />
           <ContactCard
-            Icon={Icons.location}
-            title="Email"
-            content="Healthy 24.@Email.com"
+            Icon={Icons.phone}
+            title="Phone Number"
+            content="+1 (555) 000-0000"
           />
         </div>
       </div>
