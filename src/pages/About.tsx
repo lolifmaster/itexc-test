@@ -7,7 +7,7 @@ const About = () => {
     <>
       <section
         id="about"
-        className="mx-auto max-w-screen-xl space-y-40 px-2 md:px-8"
+        className="mx-auto mt-32 max-w-screen-xl space-y-40 px-2 md:px-8"
       >
         <AboutHealth />
         <FeaturesHealth />

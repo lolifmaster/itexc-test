@@ -2,7 +2,7 @@ import ServicesImg from "../assets/services.png";
 
 const ServicesHero = () => {
   return (
-    <div className="mx-auto flex w-4/5 flex-col-reverse items-center gap-12 md:flex-row md:gap-0">
+    <div className="mx-auto flex max-w-screen-xl flex-col-reverse items-center gap-12 px-2 md:flex-row md:gap-0 md:px-8">
       <div className="flex flex-1 basis-3/5 flex-col items-center gap-6 text-center md:items-start md:text-start">
         <h2 className="text-2xl font-semibold md:text-4xl">
           Find The Best doctor you need

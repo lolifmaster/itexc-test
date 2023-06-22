@@ -23,6 +23,7 @@ export default {
       fontFamily: {
         "sans": ["Poppins", "sans-serif"],
         "sora": ["Sora", "sans-serif"],
+        "roboto": ["Roboto", "sans-serif"],
       },
       colors : {
         darkBlue : '#0B65A7',
