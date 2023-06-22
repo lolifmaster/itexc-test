@@ -9,8 +9,8 @@ const Faq = () => {
         <Icons.chat className="inline-block" /> FAQ
       </h2>
       <div className="flex w-full flex-col gap-16 lg:flex-row xl:gap-32 ">
-        <div className="flex flex-col items-center gap-4 lg:w-3/5 lg:items-start lg:gap-4 xl:gap-16">
-          <p className="max-w-3xl text-center lg:text-start">
+        <div className="flex flex-col items-center lg:w-3/5 lg:items-start">
+          <p className="max-w-3xl flex-grow text-center lg:text-start">
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             Suspendisse varius enim in eros elementum tristique. Duis cursus, mi
             quis viverra ornare, eros dolor interdum nulla, ut commodo diam

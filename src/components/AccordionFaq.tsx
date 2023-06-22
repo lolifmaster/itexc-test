@@ -5,7 +5,7 @@ export function AccordionFaq() {
   return (
     <Accordion
       type="single"
-      className="flex h-full w-full flex-1 flex-col gap-4"
+      className="flex w-full flex-col gap-4"
       defaultValue="value 0"
     >
       {Array(3)
