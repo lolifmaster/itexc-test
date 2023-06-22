@@ -4,7 +4,7 @@ import { Icons } from "./Icons";
 
 const InstallTag = () => {
   return (
-    <div className="my-32 w-screen bg-darkBlue py-8">
+    <div className="my-32 bg-darkBlue py-8">
       <div className="mx-auto flex w-full flex-col items-center gap-8 px-2 md:w-4/5 md:flex-row md:px-0">
         <div className="flex flex-1 basis-3/5 flex-col text-center text-slate-50 md:text-start">
           <h2 className=" font-sora text-4xl font-semibold leading-normal ">

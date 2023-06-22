@@ -14,7 +14,7 @@ const Hero: FC<HomeProps> = ({ setLoading }) => {
       <section
         id="home"
         className={cn(
-          "relative min-h-[600px] w-screen from-slate-50 from-30% to-transparent pt-16 md:mb-48 md:bg-gradient-to-r md:to-100% lg:to-60%"
+          "relative min-h-[600px] from-slate-50 from-30% to-transparent pt-16 md:mb-48 md:bg-gradient-to-r md:to-100% lg:to-60%"
         )}
       >
         <div className="mx-auto my-10 flex flex-1 flex-col items-center gap-6 px-2 md:max-w-screen-xl md:items-start md:px-8">
