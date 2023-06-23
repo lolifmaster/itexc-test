@@ -8,18 +8,18 @@ const Footer = () => {
       <FooterLinks />
       <div className="flex flex-col items-center">
         <h2 className="text-center font-extrabold">Download the application</h2>
-        <div className="flex gap-2">
+        <div className="flex gap-1">
           <a href="#">
             <img
               src={AppleStoreImg}
-              className="h-7 object-cover"
+              className="h-8 object-cover"
               alt="app store"
             />
           </a>
           <a href="#">
             <img
               src={GooglePlayImg}
-              className="h-7 object-cover"
+              className="h-8 object-cover"
               alt="google play"
             />
           </a>
