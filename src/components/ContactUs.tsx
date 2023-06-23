@@ -6,7 +6,7 @@ import Map from "./Map";
 const ContactUs = () => {
   return (
     <section id="contact">
-      <div className="mx-auto flex min-h-screen max-w-screen-xl flex-col gap-12 px-2 md:flex-row md:items-center md:px-8">
+      <div className="mx-auto flex min-h-screen max-w-screen-xl flex-col gap-12 px-2 py-12 md:flex-row md:items-center md:px-8 md:py-0">
         <div className="flex basis-1/2 flex-col gap-6">
           <h2 className="text-center text-3xl font-semibold text-darkBlue md:text-left">
             Contact us

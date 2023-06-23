@@ -4,7 +4,7 @@ const InstallTag = () => {
   return (
     <div className="bg-[#EBEBEB] pt-8">
       <div className="mx-auto flex w-4/5 flex-col items-center gap-4 px-2 pb-16 text-center md:w-1/2">
-        <h2 className="max-w-lg  text-4xl font-semibold">
+        <h2 className="max-w-lg text-xl font-semibold md:text-2xl lg:text-4xl">
           Our secret to great virtual care is great doctors
         </h2>
         <p className="opacity-70">
