@@ -63,7 +63,7 @@ export const Icons = {
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <g clip-path="url(#clip0_166_39)">
+      <g clipPath="url(#clip0_166_39)">
         <g filter="url(#filter0_di_166_39)">
           <circle cx="8.5" cy="8.5" r="8.5" fill="#F27219" />
         </g>
@@ -93,9 +93,9 @@ export const Icons = {
           width="55"
           height="55"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -461,7 +461,7 @@ export const Icons = {
           filterUnits="userSpaceOnUse"
           colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -528,7 +528,7 @@ export const Icons = {
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <g clip-path="url(#clip0_242_43)">
+      <g clipPath="url(#clip0_242_43)">
         <g filter="url(#filter0_di_242_43)">
           <circle cx="138" cy="8.98438" r="8" fill="#F27219" />
         </g>
@@ -562,9 +562,9 @@ export const Icons = {
           width="54"
           height="54"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -717,7 +717,7 @@ export const Icons = {
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <g clip-path="url(#clip0_258_44)">
+      <g clipPath="url(#clip0_258_44)">
         <path
           d="M86.2414 10.9919L70.962 17.6653L74.3597 27.5556L84.9135 22.9461L92.5016 45.0345C98.2159 61.6683 89.9321 80.8482 74.0385 87.7898L71.8332 88.753C55.938 95.6953 38.3581 87.8096 32.6444 71.1775L25.0563 49.0891L35.61 44.4797L32.2124 34.5894L16.933 41.2627C14.323 42.4027 12.968 45.5405 13.9063 48.2718L23.1932 75.3053C30.7808 97.3919 54.125 107.861 75.2309 98.6433L77.4362 97.6801C98.542 88.462 109.54 62.9932 101.953 40.9066L92.6658 13.8732C91.7275 11.1418 88.8514 9.85199 86.2414 10.9919Z"
           fill="#dee8fa"
