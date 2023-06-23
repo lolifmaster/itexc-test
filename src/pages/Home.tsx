@@ -2,7 +2,7 @@ import BackgroundImage from "../assets/bg-hero.jpg";
 import Button from "../components/Button";
 import Features from "../components/Features";
 import { useMediaQuery } from "@uidotdev/usehooks";
-import { FC } from "react";
+import { FC, useEffect } from "react";
 
 interface HomeProps {
   setLoading: React.Dispatch<React.SetStateAction<boolean>>;
@@ -10,6 +10,11 @@ interface HomeProps {
 
 const Hero: FC<HomeProps> = ({ setLoading }) => {
   const isSmallDevice = useMediaQuery("only screen and (max-width : 768px)");
+  useEffect(() => {
+    if (isSmallDevice) {
+      setLoading(false);
+    }
+  }, [isSmallDevice, setLoading]);
   return (
     <>
       <section
