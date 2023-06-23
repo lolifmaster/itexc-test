@@ -7,7 +7,7 @@ const Map = () => {
         loading="lazy"
         height="400"
         referrerPolicy="no-referrer-when-downgrade"
-        className="mx-auto w-full max-w-screen-xl px-2 md:px-6"
+        className="mx-auto w-full max-w-screen-2xl px-2 md:px-6"
       ></iframe>
     </div>
   );

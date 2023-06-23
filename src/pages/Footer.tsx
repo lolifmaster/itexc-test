@@ -4,7 +4,7 @@ import GooglePlayImg from "../assets/GooglePlayLogo.svg";
 
 const Footer = () => {
   return (
-    <footer className="flex w-4/5 flex-col justify-evenly border-t-2 py-12 md:flex-row md:items-start">
+    <footer className="flex flex-col-reverse justify-evenly gap-12 border-t-2 py-12 md:w-4/5 md:flex-row md:items-start md:gap-0">
       <FooterLinks />
       <div className="flex flex-col items-center">
         <h2 className="text-center font-extrabold">Download the application</h2>
