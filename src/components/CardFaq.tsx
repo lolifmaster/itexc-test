@@ -4,7 +4,7 @@ import { Icons } from "../components/Icons";
 
 const CardFaq = () => {
   return (
-    <div className="flex h-full flex-col lg:max-w-md">
+    <div className="flex h-full max-w-xl flex-col lg:max-w-md">
       <div className="h-3/5">
         <img src={DoctorImg} alt="Doctor" />
       </div>

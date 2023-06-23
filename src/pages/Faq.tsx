@@ -8,7 +8,7 @@ const Faq = () => {
       <h2 className="mb-4 text-center text-4xl font-bold lg:text-start">
         <Icons.chat className="inline-block" /> FAQ
       </h2>
-      <div className="flex w-full flex-col gap-16 lg:flex-row xl:gap-32 ">
+      <div className="flex w-full flex-col items-center gap-16 lg:flex-row lg:items-stretch xl:gap-32 ">
         <div className="flex flex-col items-center lg:w-3/5 lg:items-start">
           <p className="max-w-3xl flex-grow text-center lg:text-start">
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit.
