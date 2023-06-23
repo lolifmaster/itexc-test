@@ -1,8 +1,10 @@
 # Healthy24. Landing Page
 
-landing page built using React, TypeScript, Tailwind CSS, Vite, and Shadcn-UI.
+Landing page built using React, TypeScript, Tailwind CSS, Vite, and Shadcn-UI.
 
 ## My choices ?
+
+I decided to not overcomplicate things and work with basic tech-stack using the following technologies:
 
 - **React**: Chosen for its component-based architecture, efficient virtual DOM, large ecosystem, and declarative syntax.
 
