@@ -11,7 +11,7 @@ const HospitalSearch = () => {
           alt="illustration"
           className="h-full w-full object-cover md:object-contain"
         />
-        <div className="absolute bottom-0 left-1/2 z-10 flex w-fit -translate-x-1/2 translate-y-2/3 gap-3 bg-slate-50 p-3 shadow-[0px_0px_100px_-20px] shadow-lightBlue lg:right-0 lg:-translate-y-2/3 lg:translate-x-1/4 xl:translate-x-[60%]">
+        <div className="absolute bottom-0 left-1/2 z-10 flex w-fit -translate-x-1/2 translate-y-2/3 gap-3 bg-slate-50 p-3 shadow-[0px_0px_100px_-20px] shadow-lightBlue xl:right-0 xl:-translate-y-2/3 xl:translate-x-[60%]">
           <Icons.hand className="bg-clip-text" />
           <div>
             <p className="text-md whitespace-nowrap">Quality over Quantity</p>

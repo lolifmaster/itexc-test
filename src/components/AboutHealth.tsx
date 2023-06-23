@@ -1,5 +1,6 @@
 import Img1 from "../assets/about-img1.jpg";
 import { Icons } from "../components/Icons";
+import LazyImage from "./LazyImage";
 
 const AboutHealth = () => {
   return (
@@ -26,16 +27,17 @@ const AboutHealth = () => {
           </p>
         </div>
       </div>
-      <div className=" relative h-64 w-80  md:h-[24rem] md:w-[17rem] lg:h-[27rem] lg:w-[22rem]">
-        <img
-          src={Img1}
-          alt="illustration"
-          className="h-full w-full object-cover"
-        />
+      <LazyImage
+        src={Img1}
+        alt="illustration"
+        className="h-full w-full object-cover"
+        loading="lazy"
+        divClass=" relative h-64 w-80  md:h-[24rem] md:w-[17rem] lg:h-[27rem] lg:w-[22rem]"
+      >
         <div className="absolute bottom-0 left-1/2 -translate-x-1/2 translate-y-3/4 bg-lightBlue px-2 py-4 md:left-0 md:-translate-x-1/2 md:translate-y-1/3 lg:px-4 lg:py-8">
           <Icons.logo2 className="md:h-22 md:w-24 lg:h-auto lg:w-auto" />
-        </div>
-      </div>
+        </div>{" "}
+      </LazyImage>
     </div>
   );
 };
