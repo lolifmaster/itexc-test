@@ -1,10 +1,18 @@
-import { LucideProps, Loader2, Check, Menu, Star } from "lucide-react";
+import {
+  LucideProps,
+  Loader2,
+  Check,
+  Menu,
+  Star,
+  ChevronUp,
+} from "lucide-react";
 
 export const Icons = {
   menu: Menu,
   star: Star,
   loader: Loader2,
   check: Check,
+  chevronUp: ChevronUp,
   chat: (props: LucideProps) => (
     <svg
       {...props}

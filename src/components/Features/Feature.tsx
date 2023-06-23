@@ -1,8 +1,9 @@
-import { FC, JSXElementConstructor } from "react";
+import { FC } from "react";
 import { cn } from "../../lib/utils";
+import { LucideProps } from "lucide-react";
 
 interface FeatureProps {
-  Icon: JSXElementConstructor<any>;
+  Icon: (props: LucideProps) => JSX.Element;
   content: string;
   primary?: boolean;
 }
