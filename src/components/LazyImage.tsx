@@ -13,7 +13,7 @@ const LazyImage: FC<LazyImageProps> = ({ divClass, children, ...props }) => {
     <div className={cn("relative", divClass)}>
       <img {...props} loading="lazy" onLoad={() => setLoading(false)} />
       {loading && (
-        <Skeleton className="skeleton absolute inset-0" inline={true} />
+        <Skeleton className="skeleton absolute inset-0 z-20" inline={true} />
       )}
       {!loading && children}
     </div>

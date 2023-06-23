@@ -3,11 +3,11 @@ import HospitalRating from "./HospitalRating";
 
 const HospitalSearch = () => {
   return (
-    <div className="mx-auto flex max-w-screen-xl flex-col items-center justify-between gap-24 px-2 md:flex-row md:px-8">
+    <div className="mx-auto flex max-w-screen-xl flex-col items-center justify-between gap-24 px-2 md:flex-row md:gap-12 md:px-8 lg:gap-24">
       <HospitalRating />
 
       <div className="flex flex-1 flex-col items-center gap-6 md:items-start">
-        <h2 className="max-w-lg text-center text-3xl font-extrabold text-darkBlue md:max-w-xl md:text-left md:text-4xl md:font-normal">
+        <h2 className="max-w-md  text-center text-3xl font-extrabold text-darkBlue md:max-w-xl md:text-left md:text-4xl md:font-normal">
           Search the Nearest hospital from you
         </h2>
         <div className="flex flex-col items-center gap-8 md:items-start">
