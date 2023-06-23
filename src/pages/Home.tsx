@@ -32,6 +32,8 @@ const Hero: FC<HomeProps> = ({ setLoading }) => {
           </p>
           <Button> Get started</Button>
         </div>
+
+        {/* Background image goes here (disabled in small screens) */}
         {!isSmallDevice && (
           <div className="absolute right-0 top-0 -z-10 h-full md:w-3/4">
             <img

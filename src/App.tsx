@@ -8,6 +8,7 @@ import Services from "./pages/Services.tsx";
 import Faq from "./pages/Faq.tsx";
 import DoctorsAd from "./components/DoctorsAd.tsx";
 import ContactUs from "./components/ContactUs.tsx";
+import Footer from "./pages/Footer.tsx";
 
 const App = () => {
   const [isLoading, setIsLoading] = useState<boolean>(true);
@@ -27,6 +28,7 @@ const App = () => {
           <DoctorsAd />
           <ContactUs />
         </main>
+        <Footer />
       </div>
       <Loading isLoading={isLoading} />
     </>
