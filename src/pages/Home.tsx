@@ -19,7 +19,7 @@ const Hero: FC<HomeProps> = ({ setLoading }) => {
     <>
       <section
         id="home"
-        className="relative min-h-[600px] from-slate-50 from-30% to-transparent pt-16 md:mb-48 md:bg-gradient-to-r md:to-100% lg:to-60%"
+        className="relative min-h-[75vh] from-slate-50 from-30% to-transparent pt-16 md:mb-48 md:bg-gradient-to-r md:to-100% lg:to-60%"
       >
         <div className="mx-auto my-10 flex flex-1 flex-col items-center gap-6 px-2 md:max-w-screen-xl md:items-start md:px-8">
           <h1 className="max-w-lg text-center text-4xl font-extrabold capitalize md:max-w-xl md:text-left md:text-5xl md:font-normal">
